@@ -1,18 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <label for="comprimento">Cumprimento/Altura em Metros</label>
-    <input type="text" id="comprimento">    
-    <label for="largura">Largura</label>
-    <input type="text" id="largura">
-    <p>Resultado em M²:</p><p id="resultado"></p>
+    <div class="content">
+        <div class="dados">
+            <div class="comprimento">
+                <label for="comprimento">Cumprimento/Altura em Metros</label>
+                <input type="text" id="comprimento">
+            </div>    
+            <div class="largura">
+            <label for="largura">Largura</label>
+            <input type="text" id="largura">
+        </div>
+    </div>
+    <div class="resultado-calc">
+        <p>Resultado em M²:</p>
+        <p id="resultado"></p>
+    </div>
     <button type="button" name="resultado" onclick='metrosqds()'>resultado</button>   
+</div>
+<footer><p>j</p></footer>
     <script src="calc.js"></script>
 </body>
 </html>
