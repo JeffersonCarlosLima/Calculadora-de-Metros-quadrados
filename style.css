@@ -41,4 +41,13 @@ button{
     height: 40px;
     border: none;
     border-radius: 8px;
+    transition: 1s;
+}
+
+button:hover{
+    width: 150px;
+    border-radius: 8px;
+    background: #e0e0e0;
+    box-shadow:  4px 4px 8px #bebebe,
+                 -4px -4px 8px #ffffff;
 }
