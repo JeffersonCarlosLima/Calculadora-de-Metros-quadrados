@@ -32,7 +32,7 @@ input{
     height: 32px;
     border-radius: 8px;
     font-size: 16px;
-    border-color: tomato;
+    border-color: 0.5 tomato;
 }
 
 button{
